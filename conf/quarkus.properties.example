@@ -1,0 +1,5 @@
+quarkus.datasource.user-store.db-kind=postgresql
+quarkus.datasource.user-store.username=userdb
+quarkus.datasource.user-store.password=userdb
+quarkus.datasource.user-store.jdbc.url=jdbc:postgresql://db.example.test/userdb
+quarkus.datasource.user-store.jdbc.acquisition-timeout=30
