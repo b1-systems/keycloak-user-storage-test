@@ -216,6 +216,7 @@ CREATE TABLE public.users (
     id character varying(255) NOT NULL,
     createdtimestamp bigint,
     email character varying(255),
+    email_verified boolean DEFAULT false,
     firstname character varying(255),
     lastname character varying(255),
     password_hash character varying(255),
