@@ -19,7 +19,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.linuxfoo.keycloak.storage</groupId>
-    <version>23.0.5</version>
+    <version>26.6.2</version>
     <artifactId>user-storage-test</artifactId>
     <packaging>jar</packaging>
     <name>User Storage Test</name>
@@ -35,10 +35,10 @@
 
     <properties>
         <version.compiler.maven.plugin>3.5.1</version.compiler.maven.plugin>
-    <version.hibernate.javax.persistence>1.0.0.Final</version.hibernate.javax.persistence>
-    <maven.compiler.source>17</maven.compiler.source>
+        <version.hibernate.javax.persistence>1.0.0.Final</version.hibernate.javax.persistence>
+        <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <keycloak.version>23.0.5</keycloak.version>
+        <keycloak.version>26.6.2</keycloak.version>
         <jboss.logging.version>3.5.3.Final</jboss.logging.version>
     </properties>
 
